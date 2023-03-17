@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Estilo/style.css" />
+    <link rel="stylesheet" href="./Estilo/default.css" />
+
+    <link
+      rel="stylesheet"
+      media="(max-width: 640px)"
+      href="./Estilo/640px.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1007px)"
+      href="./Estilo/1007px.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1008px)"
+      href="./Estilo/1008px.css"
+    />
+    <link rel="icon" href="./Fotos/icon.png" />
+
+    <title>Matheus Santos - portifólio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">Matheus Santos</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#project_page">Projetos</a></li>
+          <li><a href="">Meu Currículo</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="start">
+      <div class="start_content">
+        <div>
+          <h2 style="font-size: 25pt">Olá...</h2>
+          <br />
+          <p>
+            Seja bem-vindo ao meu portifólio.Aqui você <br />podera acompanhar
+            todo o meu progresso como <br />desenvolvedor.
+          </p>
+        </div>
+        <img src="./Fotos/giphy.gif" alt="Ilustração da Página" />
+      </div>
+    </div>
+
+    <h3 class="title_animation">Sobre</h3>
+
+    <div id="about">
+      <img src="./Fotos/eu.jfif" alt="Foto do Desenvolvedor" class="myphoto" />
+
+      <div class="about_content">
+        <h3>Vamos lá...</h3>
+
+        <p>
+          Prazer em conhecer você, me chamo Matheus, tenho 22 anos e estou
+          buscando minha primeira oportunidade como desenvolverdor Web. Moro no
+          litoral paulista (Santos), Sou formado em
+          <strong>Análise e Desenvolimento de Sistemas</strong> e atualmente
+          cursando <strong>Ciência da Computação</strong>, tenho uma paixão
+          muito grande por Técnologia e Desenvolvimento.
+        </p>
+      </div>
+      <div>
+        <ul class="midias_container">
+          <li>
+            <a href=" https://github.com/MathSanco" target="_blank"
+              ><img
+                src="./Fotos/Midias_Sociais/GitHub.png"
+                alt="GitHub"
+                class="social-midias"
+            /></a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/matheus-santos-costa-1b6345252/"
+              target="_blank"
+              ><img
+                src="./Fotos/Midias_Sociais/Linkedin.png"
+                alt="Linkedin"
+                class="social-midias"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="abilites">
+      <h3 class="title_animation">Minhas habilidades</h3>
+
+      <div class="abilities_icons">
+        <ul>
+          <li>
+            <img
+              src="./Fotos/Icons/html-5.png"
+              alt="Ícone html-5"
+              onclick="about_framework1()"
+            />
+          </li>
+          <li>
+            <img
+              src="./Fotos/Icons/css-3.png"
+              alt="Ícone CSS-3"
+              onclick="about_framework2()"
+            />
+          </li>
+          <li>
+            <img
+              src="./Fotos/Icons/js.png"
+              alt="Ícone JavaScript"
+              onclick="about_framework3()"
+            />
+          </li>
+          <li>
+            <img
+              src="./Fotos/Icons/atoms.png"
+              alt="Ícone ReactJS"
+              onclick="about_framework4()"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="project_page">
+      <h3 class="title_animation">Projetos Desenvovidos</h3>
+
+      <div class="projects_container">
+        <img src="./Fotos/Icons/coming_soon.svg" alt="" class="project_img" />
+        <img src="./Fotos/Icons/coming_soon.svg" alt="" class="project_img" />
+        <img src="./Fotos/Icons/coming_soon.svg" alt="" class="project_img" />
+        <img src="./Fotos/Icons/coming_soon.svg" alt="" class="project_img" />
+      </div>
+    </div>
+
+    <footer>
+      <small>@Desenvolvido por Matheus Santos</small>
+      <a href="https://wa.me/+5513982184642" target="_blank"
+        ><img
+          src="./Fotos/Icons/Whatsapp.png"
+          alt="Ícone do Whatsapp"
+          class="whatsapp"
+      /></a>
+    </footer>
+    <script src="./Script/navBar.js"></script>
+  </body>
+</html>
