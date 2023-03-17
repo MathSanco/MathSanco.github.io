@@ -1,0 +1,29 @@
+nav .logo{
+    font-size: 12pt;
+}
+
+.mobile-menu{
+    scale: 0.7;
+    transform: translate(0%, 10%);
+}
+
+.nav-list{
+    font-size: 11pt;
+}
+
+.about_content{
+    font-size: 13pt;
+}
+
+.abilities_icons li:hover{
+    filter: drop-shadow(10px 5px 2px #4444dd);
+}
+
+.title_animation{
+    font-size: 22pt;
+    margin-top: 50px;
+}
+
+.title_animation:hover{
+    letter-spacing: 0px;
+}

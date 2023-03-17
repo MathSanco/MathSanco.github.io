@@ -76,7 +76,7 @@ nav{
 
 #about{ 
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     align-content: space-around;
     width: 100%;

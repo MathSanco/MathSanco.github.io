@@ -97,20 +97,7 @@ body{
     }
     
     
-    .title_animation{
-        transition: 0.2s ease-in-out;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 25pt; 
-        text-align: center; 
-        margin-top: 56px;
-        height: 90px;
-    }
-    
-    .title_animation:hover{
-        letter-spacing: 2px;
-        
-    }
+
     
     #about{ 
         display: block;
